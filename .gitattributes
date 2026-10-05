@@ -1,0 +1,2 @@
+# Preserve audited runtime bytes across platforms; do not normalize line endings.
+* -text

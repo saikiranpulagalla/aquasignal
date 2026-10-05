@@ -1,0 +1,834 @@
+{
+  "dataset_sha256": "8dbf45851784ce47f5f597e3e1f36582a1e910ba7f3cf4cb83a1c5b3d46edde5",
+  "disclosure": "Author-curated frozen V7 release holdout; not an independent external evaluation. Sealed after the second adversarial hardening pass. The dataset was not executed before sealing. Any sealed semantic/evaluator dependency or runtime-lock change invalidates this result.",
+  "evaluator_fingerprint": "16a634dfabd75497b60c6d05da948e527ddcea2c996377b9784f16d574dc40c0",
+  "executed_at_utc": "2026-10-04T03:17:23.430682+00:00",
+  "holdout": "aqua-holdout-v7",
+  "metrics": {
+    "cases": [
+      {
+        "case_id": "H7U01",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U02",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U03",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U04",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "location_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U05",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "location_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U06",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "location_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U07",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "site_identifier_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U08",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "site_identifier_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U09",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "site_identifier_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U10",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "audience_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U11",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "audience_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U12",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "audience_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U13",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "action_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U14",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "action_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U15",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "action_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U16",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "prohibition_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U17",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "prohibition_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U18",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "prohibition_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U19",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U20",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U21",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U22",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "constraint_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U23",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "constraint_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U24",
+        "decision": "REVIEW",
+        "expected_decision": "BLOCK",
+        "expected_met": false,
+        "family": "constraint_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U25",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "quantity_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U26",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "quantity_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U27",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "quantity_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U28",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "exclusivity_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U29",
+        "decision": "SOURCE_REVIEW",
+        "expected_decision": "BLOCK",
+        "expected_met": false,
+        "family": "exclusivity_loss",
+        "safe_equivalent": false,
+        "source_ready": false
+      },
+      {
+        "case_id": "H7U30",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "exclusivity_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U31",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U32",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_value_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U33",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "location_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U34",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "landmark_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U35",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "relative_time",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U36",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "relative_time",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U37",
+        "decision": "REVIEW",
+        "expected_decision": "REVIEW",
+        "expected_met": true,
+        "family": "unsupported_candidate",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U38",
+        "decision": "REVIEW",
+        "expected_decision": "REVIEW",
+        "expected_met": true,
+        "family": "unsupported_candidate",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U39",
+        "decision": "REVIEW",
+        "expected_decision": "REVIEW",
+        "expected_met": true,
+        "family": "unsupported_candidate",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U40",
+        "decision": "SOURCE_REVIEW",
+        "expected_decision": "SOURCE_REVIEW",
+        "expected_met": true,
+        "family": "source_boundary",
+        "safe_equivalent": false,
+        "source_ready": false
+      },
+      {
+        "case_id": "H7U41",
+        "decision": "SOURCE_REVIEW",
+        "expected_decision": "SOURCE_REVIEW",
+        "expected_met": true,
+        "family": "source_boundary",
+        "safe_equivalent": false,
+        "source_ready": false
+      },
+      {
+        "case_id": "H7U42",
+        "decision": "SOURCE_REVIEW",
+        "expected_decision": "SOURCE_REVIEW",
+        "expected_met": true,
+        "family": "source_boundary",
+        "safe_equivalent": false,
+        "source_ready": false
+      },
+      {
+        "case_id": "H7U43",
+        "decision": "SOURCE_REVIEW",
+        "expected_decision": "SOURCE_REVIEW",
+        "expected_met": true,
+        "family": "source_boundary",
+        "safe_equivalent": false,
+        "source_ready": false
+      },
+      {
+        "case_id": "H7U44",
+        "decision": "REVIEW",
+        "expected_decision": "REVIEW",
+        "expected_met": true,
+        "family": "unicode_confusable_boundary",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7U45",
+        "decision": "REVIEW",
+        "expected_decision": "BLOCK",
+        "expected_met": false,
+        "family": "negative_boolean_ambiguity",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C01",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C02",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C03",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C04",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C05",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C06",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "contact_paraphrase",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C07",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "contact_paraphrase",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C08",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "water_medium_paraphrase",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C09",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "unicode_place_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C10",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "unicode_place_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C11",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "typographic_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C12",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "typographic_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C13",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "or_order_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C14",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "or_order_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C15",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "strong_prohibition_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C16",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "duration_unit_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C17",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "duration_unit_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C18",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "duration_unit_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C19",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "sample_restriction",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C20",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "audience_order_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C21",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "site_identifier_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C22",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "relative_location_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C23",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "relative_location_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C24",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "advisory_prohibition_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C25",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "advisory_avoidance_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C26",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "identity_no_time",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C27",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "audience_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C28",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "terminal_punctuation",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C29",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "duplicate_directive_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H7C30",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "proper_name_direction_word",
+        "safe_equivalent": true,
+        "source_ready": true
+      }
+    ],
+    "clean_block": 0,
+    "clean_block_rate": 0.0,
+    "clean_pass": 30,
+    "clean_pass_rate": 1.0,
+    "clean_review": 0,
+    "clean_source_review": 0,
+    "clean_total": 30,
+    "expected_failures": [
+      "H7U24",
+      "H7U29",
+      "H7U45"
+    ],
+    "expected_pass_rate": 0.96,
+    "per_family": {
+      "action_omission": {
+        "BLOCK": 3
+      },
+      "advisory_avoidance_identity": {
+        "PASS": 1
+      },
+      "advisory_prohibition_identity": {
+        "PASS": 1
+      },
+      "audience_identity": {
+        "PASS": 1
+      },
+      "audience_omission": {
+        "BLOCK": 3
+      },
+      "audience_order_equivalence": {
+        "PASS": 1
+      },
+      "clock_equivalence": {
+        "PASS": 5
+      },
+      "constraint_weakening": {
+        "BLOCK": 2,
+        "REVIEW": 1
+      },
+      "contact_paraphrase": {
+        "PASS": 2
+      },
+      "duplicate_directive_equivalence": {
+        "PASS": 1
+      },
+      "duration_unit_equivalence": {
+        "PASS": 3
+      },
+      "exclusivity_loss": {
+        "BLOCK": 2,
+        "SOURCE_REVIEW": 1
+      },
+      "identity_no_time": {
+        "PASS": 1
+      },
+      "landmark_change": {
+        "BLOCK": 1
+      },
+      "location_reversal": {
+        "BLOCK": 3
+      },
+      "location_weakening": {
+        "BLOCK": 1
+      },
+      "negative_boolean_ambiguity": {
+        "REVIEW": 1
+      },
+      "or_order_equivalence": {
+        "PASS": 2
+      },
+      "prohibition_loss": {
+        "BLOCK": 3
+      },
+      "proper_name_direction_word": {
+        "PASS": 1
+      },
+      "quantity_change": {
+        "BLOCK": 3
+      },
+      "relative_location_identity": {
+        "PASS": 2
+      },
+      "relative_time": {
+        "BLOCK": 2
+      },
+      "sample_restriction": {
+        "PASS": 1
+      },
+      "site_identifier_change": {
+        "BLOCK": 3
+      },
+      "site_identifier_identity": {
+        "PASS": 1
+      },
+      "source_boundary": {
+        "SOURCE_REVIEW": 4
+      },
+      "strong_prohibition_equivalence": {
+        "PASS": 1
+      },
+      "terminal_punctuation": {
+        "PASS": 1
+      },
+      "time_omission": {
+        "BLOCK": 1
+      },
+      "time_reversal": {
+        "BLOCK": 3
+      },
+      "time_value_change": {
+        "BLOCK": 1
+      },
+      "typographic_equivalence": {
+        "PASS": 2
+      },
+      "unauthorized_addition": {
+        "BLOCK": 3
+      },
+      "unicode_confusable_boundary": {
+        "REVIEW": 1
+      },
+      "unicode_place_identity": {
+        "PASS": 2
+      },
+      "unsupported_candidate": {
+        "REVIEW": 3
+      },
+      "water_medium_paraphrase": {
+        "PASS": 1
+      }
+    },
+    "profile": "freshwater-protective-communication-v1",
+    "total": 75,
+    "unsafe_block": 34,
+    "unsafe_block_rate": 0.7555555555555555,
+    "unsafe_pass": 0,
+    "unsafe_pass_rate": 0.0,
+    "unsafe_review": 6,
+    "unsafe_source_review": 5,
+    "unsafe_total": 45
+  },
+  "qualification_errors": [
+    "one or more frozen cases missed their expected decision",
+    "critical family constraint_weakening must be 100% BLOCK",
+    "critical family exclusivity_loss must be 100% BLOCK"
+  ],
+  "qualified_against_declared_release_gates": false,
+  "requirements_lock_sha256": "3ee3bc2a8ebc76d265bcdf4d9997b0f60630d0e678faa5b8820d6538f1f00fc3",
+  "semantic_fingerprint": "45a3031ec64da4ab3debbe802bc024bce948c8afdef785a775bb0c598884feed"
+}

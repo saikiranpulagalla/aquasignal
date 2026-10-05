@@ -1,0 +1,17 @@
+{
+  "case_count": 32,
+  "clean_count": 14,
+  "dataset_sha256": "890e871128be178f9031b8158cbe58175943fc4aac512ae80d3f71e41e6813e4",
+  "holdout": "aqua-holdout-v2",
+  "note": "Author-curated frozen release holdout. Not an independent external evaluation. Any semantic-code change after execution burns this result.",
+  "schema_version": 1,
+  "sealed_at_utc": "2026-10-03T17:07:41.185840+00:00",
+  "semantic_files": [
+    "aquasignal/domain/freshwater.py",
+    "aquasignal/integrity/verifier.py",
+    "signallock/contracts/schema.py",
+    "signallock/verification/engine.py"
+  ],
+  "semantic_fingerprint": "3bd80ffcd0d57340a9cc9a41d7fd8e908cf5f000443953f4ac3e533eef52255e",
+  "unsafe_count": 18
+}

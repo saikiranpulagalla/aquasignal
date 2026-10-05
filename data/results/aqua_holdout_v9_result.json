@@ -1,0 +1,821 @@
+{
+  "dataset_sha256": "b237ab5eaab6ddb95bf78669f34fca8ce6f615e913dd7eeba0224490a2bfe67c",
+  "disclosure": "Author-curated frozen V9 release holdout; not an independent external evaluation. Sealed after the second adversarial hardening pass. The dataset was not executed before sealing. Any sealed semantic/evaluator dependency or runtime-lock change invalidates this result.",
+  "evaluator_fingerprint": "44ff805f4404d7cbd67a714384cea8d81d36e0900bdc56b73d1527b0007a39a8",
+  "executed_at_utc": "2026-10-04T03:29:03.396183+00:00",
+  "holdout": "aqua-holdout-v9",
+  "metrics": {
+    "cases": [
+      {
+        "case_id": "H9U01",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U02",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U03",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U04",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "location_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U05",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "location_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U06",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "location_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U07",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "site_identifier_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U08",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "site_identifier_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U09",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "site_identifier_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U10",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "audience_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U11",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "audience_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U12",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "audience_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U13",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "action_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U14",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "action_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U15",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "action_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U16",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "prohibition_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U17",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "prohibition_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U18",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "prohibition_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U19",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U20",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U21",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U22",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "constraint_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U23",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "constraint_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U24",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "constraint_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U25",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "quantity_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U26",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "quantity_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U27",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "quantity_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U28",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "exclusivity_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U29",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "exclusivity_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U30",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "exclusivity_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U31",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U32",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "time_value_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U33",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "location_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U34",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "landmark_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U35",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "relative_time",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U36",
+        "decision": "BLOCK",
+        "expected_decision": "BLOCK",
+        "expected_met": true,
+        "family": "relative_time",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U37",
+        "decision": "REVIEW",
+        "expected_decision": "REVIEW",
+        "expected_met": true,
+        "family": "unsupported_candidate",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U38",
+        "decision": "REVIEW",
+        "expected_decision": "REVIEW",
+        "expected_met": true,
+        "family": "unsupported_candidate",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U39",
+        "decision": "REVIEW",
+        "expected_decision": "REVIEW",
+        "expected_met": true,
+        "family": "unsupported_candidate",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U40",
+        "decision": "SOURCE_REVIEW",
+        "expected_decision": "SOURCE_REVIEW",
+        "expected_met": true,
+        "family": "source_boundary",
+        "safe_equivalent": false,
+        "source_ready": false
+      },
+      {
+        "case_id": "H9U41",
+        "decision": "SOURCE_REVIEW",
+        "expected_decision": "SOURCE_REVIEW",
+        "expected_met": true,
+        "family": "source_boundary",
+        "safe_equivalent": false,
+        "source_ready": false
+      },
+      {
+        "case_id": "H9U42",
+        "decision": "SOURCE_REVIEW",
+        "expected_decision": "SOURCE_REVIEW",
+        "expected_met": true,
+        "family": "source_boundary",
+        "safe_equivalent": false,
+        "source_ready": false
+      },
+      {
+        "case_id": "H9U43",
+        "decision": "SOURCE_REVIEW",
+        "expected_decision": "SOURCE_REVIEW",
+        "expected_met": true,
+        "family": "source_boundary",
+        "safe_equivalent": false,
+        "source_ready": false
+      },
+      {
+        "case_id": "H9U44",
+        "decision": "REVIEW",
+        "expected_decision": "REVIEW",
+        "expected_met": true,
+        "family": "unicode_confusable_boundary",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9U45",
+        "decision": "REVIEW",
+        "expected_decision": "REVIEW",
+        "expected_met": true,
+        "family": "negative_boolean_ambiguity",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C01",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C02",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C03",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C04",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C05",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C06",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "contact_paraphrase",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C07",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "contact_paraphrase",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C08",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "water_medium_paraphrase",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C09",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "unicode_place_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C10",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "unicode_place_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C11",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "typographic_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C12",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "typographic_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C13",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "or_order_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C14",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "or_order_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C15",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "strong_prohibition_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C16",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "duration_unit_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C17",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "duration_unit_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C18",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "duration_unit_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C19",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "sample_restriction",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C20",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "sample_restriction",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C21",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "audience_order_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C22",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "site_identifier_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C23",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "relative_location_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C24",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "relative_location_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C25",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "advisory_prohibition_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C26",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "advisory_avoidance_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C27",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "identity_no_time",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C28",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "audience_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C29",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "duplicate_directive_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H9C30",
+        "decision": "PASS",
+        "expected_decision": "PASS",
+        "expected_met": true,
+        "family": "proper_name_direction_word",
+        "safe_equivalent": true,
+        "source_ready": true
+      }
+    ],
+    "clean_block": 0,
+    "clean_block_rate": 0.0,
+    "clean_pass": 30,
+    "clean_pass_rate": 1.0,
+    "clean_review": 0,
+    "clean_source_review": 0,
+    "clean_total": 30,
+    "expected_failures": [],
+    "expected_pass_rate": 1.0,
+    "per_family": {
+      "action_omission": {
+        "BLOCK": 3
+      },
+      "advisory_avoidance_identity": {
+        "PASS": 1
+      },
+      "advisory_prohibition_identity": {
+        "PASS": 1
+      },
+      "audience_identity": {
+        "PASS": 1
+      },
+      "audience_omission": {
+        "BLOCK": 3
+      },
+      "audience_order_equivalence": {
+        "PASS": 1
+      },
+      "clock_equivalence": {
+        "PASS": 5
+      },
+      "constraint_weakening": {
+        "BLOCK": 3
+      },
+      "contact_paraphrase": {
+        "PASS": 2
+      },
+      "duplicate_directive_equivalence": {
+        "PASS": 1
+      },
+      "duration_unit_equivalence": {
+        "PASS": 3
+      },
+      "exclusivity_loss": {
+        "BLOCK": 3
+      },
+      "identity_no_time": {
+        "PASS": 1
+      },
+      "landmark_change": {
+        "BLOCK": 1
+      },
+      "location_reversal": {
+        "BLOCK": 3
+      },
+      "location_weakening": {
+        "BLOCK": 1
+      },
+      "negative_boolean_ambiguity": {
+        "REVIEW": 1
+      },
+      "or_order_equivalence": {
+        "PASS": 2
+      },
+      "prohibition_loss": {
+        "BLOCK": 3
+      },
+      "proper_name_direction_word": {
+        "PASS": 1
+      },
+      "quantity_change": {
+        "BLOCK": 3
+      },
+      "relative_location_identity": {
+        "PASS": 2
+      },
+      "relative_time": {
+        "BLOCK": 2
+      },
+      "sample_restriction": {
+        "PASS": 2
+      },
+      "site_identifier_change": {
+        "BLOCK": 3
+      },
+      "site_identifier_identity": {
+        "PASS": 1
+      },
+      "source_boundary": {
+        "SOURCE_REVIEW": 4
+      },
+      "strong_prohibition_equivalence": {
+        "PASS": 1
+      },
+      "time_omission": {
+        "BLOCK": 1
+      },
+      "time_reversal": {
+        "BLOCK": 3
+      },
+      "time_value_change": {
+        "BLOCK": 1
+      },
+      "typographic_equivalence": {
+        "PASS": 2
+      },
+      "unauthorized_addition": {
+        "BLOCK": 3
+      },
+      "unicode_confusable_boundary": {
+        "REVIEW": 1
+      },
+      "unicode_place_identity": {
+        "PASS": 2
+      },
+      "unsupported_candidate": {
+        "REVIEW": 3
+      },
+      "water_medium_paraphrase": {
+        "PASS": 1
+      }
+    },
+    "profile": "freshwater-protective-communication-v1",
+    "total": 75,
+    "unsafe_block": 36,
+    "unsafe_block_rate": 0.8,
+    "unsafe_pass": 0,
+    "unsafe_pass_rate": 0.0,
+    "unsafe_review": 5,
+    "unsafe_source_review": 4,
+    "unsafe_total": 45
+  },
+  "qualification_errors": [],
+  "qualified_against_declared_release_gates": true,
+  "requirements_lock_sha256": "3ee3bc2a8ebc76d265bcdf4d9997b0f60630d0e678faa5b8820d6538f1f00fc3",
+  "semantic_fingerprint": "69fb732745dd50d2af739931d0abf2f9984d113002219bedb02704b3d902f553"
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'" />
+<title>SignalLock AI</title>
+<link rel="stylesheet" href="/app.css" />
+</head>
+<body>
+<div class="shell">
+  <nav class="nav"><div class="brand">SignalLock AI</div><div class="tag">Human-review safety layer · prototype</div></nav>
+  <section class="hero">
+    <div class="principle">Protective-action integrity</div>
+    <h1>AI may rewrite the words.<br><span>It may not rewrite the action.</span></h1>
+    <p>SignalLock compiles an authoritative emergency alert into a machine-checkable Safety Contract, then verifies whether an AI-transformed message preserved the actions, prohibitions, location, time, quantities, audience, and exceptions that matter.</p>
+  </section>
+
+  <section class="grid">
+    <div class="panel">
+      <h2>1 · Source alert</h2>
+      <p class="sub">This is the safety reference. SignalLock never treats the transformed message as authority.</p>
+      <textarea id="source">Residents in the eastern river district must shelter indoors until 6 PM. Do not enter the eastern underpass. Avoid roads with more than 30 cm of water, except emergency personnel.</textarea>
+      <div class="toolbar">
+        <button id="safeBtn" class="btn secondary">Safe example</button>
+        <button id="faultBtn" class="btn danger">Inject negation fault</button>
+      </div>
+      <div id="contract" class="contract"></div>
+    </div>
+
+    <div class="panel">
+      <h2>2 · Candidate rewrite</h2>
+      <p class="sub">Paste an AI translation, simplification, or channel-compressed version and verify it against the source contract.</p>
+      <textarea id="candidate">Residents in the eastern river district must shelter indoors until 6 PM. Enter the eastern underpass. Avoid roads with more than 30 cm of water, except emergency personnel.</textarea>
+      <div class="toolbar">
+        <select id="provider"><option value="heuristic">Offline deterministic demo</option><option value="openai">Live multilingual AI (API key required)</option></select>
+        <select id="candidateLang"><option value="en">English</option><option value="hi">Hindi</option><option value="te">Telugu</option></select>
+        <button id="simplifyBtn" class="btn secondary">Simplify</button>
+        <button id="smsBtn" class="btn secondary">SMS</button>
+        <button id="translateBtn" class="btn secondary">Translate</button>
+        <button id="verifyBtn" class="btn primary">Check alert integrity</button>
+      </div>
+      <div id="status" class="status"><div class="status-dot"></div><div><div class="status-title">Not evaluated</div><div class="status-copy">Run verification to compare protective-action contracts.</div></div></div>
+      <div id="signals" class="signals"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><h2>Fault-injection benchmark</h2><p>Controlled development benchmark. Unsafe faults are deliberately planted; this is not a final external evaluation.</p></div><button id="benchmarkBtn" class="btn secondary">Run benchmark</button></div>
+    <div id="metrics" class="metrics">
+      <div class="metric"><strong>—</strong><span>Unsafe PASS rate</span></div>
+      <div class="metric"><strong>—</strong><span>Unsafe catch recall</span></div>
+      <div class="metric"><strong>—</strong><span>Clean block rate</span></div>
+      <div class="metric"><strong>—</strong><span>Cases</span></div>
+    </div>
+    <div id="faults" class="fault-grid"></div>
+  </section>
+
+  <footer class="footer"><span>SignalLock · Emergency Alert Integrity Checker</span><span>PRESERVED / REVIEW / CRITICAL DRIFT · human review remains required.</span></footer>
+</div>
+<script src="/app.js" defer></script>
+</body>
+</html>

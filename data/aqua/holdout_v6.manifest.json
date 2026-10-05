@@ -1,0 +1,36 @@
+{
+  "case_count": 58,
+  "clean_count": 26,
+  "critical_block_families": [
+    "time_reversal",
+    "location_reversal",
+    "site_identifier_change",
+    "audience_omission",
+    "action_omission",
+    "prohibition_loss",
+    "unauthorized_addition",
+    "constraint_weakening",
+    "quantity_change",
+    "exclusivity_loss"
+  ],
+  "dataset_sha256": "761036841b2aefe307d332a9884b0fd89fd1f6dad2094a8bd0ed6546e207d065",
+  "holdout": "aqua-holdout-v6",
+  "max_clean_block_rate": 0.05,
+  "min_clean_pass_rate": 0.8,
+  "note": "Author-curated frozen V6 release holdout. Not an independent external evaluation. Sealed after red-team hardening; any sealed semantic dependency change burns the result.",
+  "schema_version": 2,
+  "sealed_at_utc": "2026-10-04T02:52:50.237086+00:00",
+  "semantic_files": [
+    "aquasignal/domain/freshwater.py",
+    "aquasignal/integrity/verifier.py",
+    "signallock/contracts/schema.py",
+    "signallock/contracts/normalization.py",
+    "signallock/verification/engine.py",
+    "aquasignal/evaluation/cases.py",
+    "aquasignal/evaluation/runner.py",
+    "aquasignal/evaluation/evidence.py",
+    "scripts/run_aqua_holdout_v6.py"
+  ],
+  "semantic_fingerprint": "4326163d4affa21b2b3e5fde223998e3726f3b8935763f858109b8f61d56ca55",
+  "unsafe_count": 32
+}

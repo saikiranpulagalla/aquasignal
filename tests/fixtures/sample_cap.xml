@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>TEST-001</identifier>
+  <sender>alerts@example.org</sender>
+  <sent>2026-09-10T12:00:00+05:30</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-IN</language>
+    <category>Met</category>
+    <event>Flash Flood Warning</event>
+    <responseType>Shelter</responseType>
+    <responseType>Avoid</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <effective>2026-09-10T12:00:00+05:30</effective>
+    <expires>2026-09-10T18:00:00+05:30</expires>
+    <audience>Residents</audience>
+    <headline>Flash flood in eastern river district</headline>
+    <description>Rapid water rise is expected.</description>
+    <instruction>Stay indoors. Do not enter the eastern underpass.</instruction>
+    <area><areaDesc>Eastern River District</areaDesc></area>
+    <area><areaDesc>Eastern River District</areaDesc></area>
+  </info>
+  <info>
+    <language>hi-IN</language>
+    <category>Met</category>
+    <event>Flash Flood Warning</event>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <headline>Hindi localized block</headline>
+    <area><areaDesc>Eastern River District</areaDesc></area>
+  </info>
+</alert>

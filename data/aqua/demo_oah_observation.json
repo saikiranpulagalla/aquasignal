@@ -1,0 +1,22 @@
+{
+  "resourceType": "Observation",
+  "id": "aquasignal-demo-observation",
+  "meta": {
+    "profile": [
+      "https://example.org/oah/StructureDefinition/observation-indicators-oah"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "text": "Synthetic freshwater environmental indicator"
+  },
+  "subject": {
+    "reference": "Location/stream-a",
+    "display": "Stream A"
+  },
+  "note": [
+    {
+      "text": "Synthetic demonstration context. No real environmental or health risk is represented."
+    }
+  ]
+}

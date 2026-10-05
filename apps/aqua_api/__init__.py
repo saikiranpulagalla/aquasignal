@@ -1,0 +1,1 @@
+"""AquaSignal FastAPI application."""

@@ -1,0 +1,63 @@
+{
+  "dev_benchmark": {
+    "clean_block": 0,
+    "clean_pass": 10,
+    "clean_review": 0,
+    "clean_source_review": 0,
+    "clean_total": 10,
+    "total": 24,
+    "unsafe_block": 14,
+    "unsafe_pass": 0,
+    "unsafe_review": 0,
+    "unsafe_source_review": 0,
+    "unsafe_total": 14
+  },
+  "disclosures": [
+    "Aqua holdout V17 is author-curated and is not independent external validation.",
+    "Earlier holdout iterations are retained/burned when a defect or post-seal change invalidated them; V17 is the current verified evidence.",
+    "Inherited SignalLock tests are not relabeled as freshwater validation.",
+    "AquaSignal is a prototype human-review aid, not a safety certification or environmental/public-health authority.",
+    "Resilience-compatible CSV/FHIR context proves server-bound import provenance, not independent authenticity of the upstream dataset.",
+    "Integrity receipts use HMAC-SHA256 and are server-verifiable, not public-key attestations."
+  ],
+  "evaluator_fingerprint": "15c29f04756b2f9a20c3e5b2153358601d227386027fe2cb17d467a0922c8abc",
+  "generated_at_utc": "2026-10-04T13:19:45.533844+00:00",
+  "holdout": {
+    "dataset_sha256": "695dab284510502a6af26da611cc67d873f9ab1163d171b41b647282eed6d618",
+    "id": "aqua-holdout-v17",
+    "manifest_sha256": "b845c8eb90c13506b69003baeb1b41dd015bef70e5dd70ae30ada29c46711af7",
+    "metrics": {
+      "clean_block": 0,
+      "clean_block_rate": 0.0,
+      "clean_pass": 26,
+      "clean_pass_rate": 1.0,
+      "clean_review": 0,
+      "clean_source_review": 0,
+      "clean_total": 26,
+      "expected_pass_rate": 1.0,
+      "total": 73,
+      "unsafe_block": 40,
+      "unsafe_pass": 0,
+      "unsafe_review": 4,
+      "unsafe_source_review": 3,
+      "unsafe_total": 47
+    },
+    "qualified": true,
+    "result_sha256": "49909c4129a9b0243624a97ec74181227532a396f7f9e04a44b87c0722440b47"
+  },
+  "kind": "AquaSignal OneAquaHealth release evidence identity",
+  "python": "3.13.5",
+  "release_evidence_file_count": 197,
+  "release_evidence_tree_sha256": "79993368d62d3649851b03276d5a7ad4643f60c5546f01502c3f8158556b192c",
+  "release_id": "aquasignal-oneaquahealth-v0.6.1",
+  "requirements_lock_sha256": "3ee3bc2a8ebc76d265bcdf4d9997b0f60630d0e678faa5b8820d6538f1f00fc3",
+  "semantic_fingerprint": "0d9e6c28bfaaa353443f692f000b15f6f1084737e7b824866c1d33f56bb15a06",
+  "semantic_profile": "freshwater-protective-communication-v1",
+  "source_commit": null,
+  "tests": {
+    "aqua_specific": 349,
+    "combined": 960,
+    "inherited_signallock": 611
+  },
+  "version": "0.6.1"
+}

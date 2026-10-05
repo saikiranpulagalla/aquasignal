@@ -1,0 +1,251 @@
+{
+  "dataset_sha256": "ff83cc7ce61379175f2e4698f5bf4f1ecfbbde1440718b3aab2c1b16847cdb83",
+  "disclosure": "Author-curated frozen release holdout. Not an independent external evaluation. Any semantic-code change after execution burns this result.",
+  "executed_at_utc": "2026-10-03T16:57:21.819246+00:00",
+  "holdout": "aqua-holdout-v1",
+  "metrics": {
+    "cases": [
+      {
+        "case_id": "HU01",
+        "decision": "BLOCK",
+        "family": "time_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU02",
+        "decision": "BLOCK",
+        "family": "time_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU03",
+        "decision": "BLOCK",
+        "family": "site_identifier_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU04",
+        "decision": "BLOCK",
+        "family": "landmark_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU05",
+        "decision": "BLOCK",
+        "family": "location_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU06",
+        "decision": "BLOCK",
+        "family": "audience_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU07",
+        "decision": "BLOCK",
+        "family": "action_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU08",
+        "decision": "BLOCK",
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU09",
+        "decision": "BLOCK",
+        "family": "quantity_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU10",
+        "decision": "BLOCK",
+        "family": "exclusivity_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU11",
+        "decision": "BLOCK",
+        "family": "time_value_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU12",
+        "decision": "BLOCK",
+        "family": "prohibition_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU13",
+        "decision": "BLOCK",
+        "family": "audience_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HU14",
+        "decision": "PASS",
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC01",
+        "decision": "PASS",
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC02",
+        "decision": "PASS",
+        "family": "contact_paraphrase",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC03",
+        "decision": "PASS",
+        "family": "identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC04",
+        "decision": "PASS",
+        "family": "identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC05",
+        "decision": "PASS",
+        "family": "identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC06",
+        "decision": "PASS",
+        "family": "identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC07",
+        "decision": "PASS",
+        "family": "boil_duration",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC08",
+        "decision": "PASS",
+        "family": "sample_restriction",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC09",
+        "decision": "PASS",
+        "family": "case_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "HC10",
+        "decision": "PASS",
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      }
+    ],
+    "clean_block": 0,
+    "clean_block_rate": 0.0,
+    "clean_pass": 10,
+    "clean_pass_rate": 1.0,
+    "clean_review": 0,
+    "clean_total": 10,
+    "per_family": {
+      "action_omission": {
+        "BLOCK": 1
+      },
+      "audience_omission": {
+        "BLOCK": 2
+      },
+      "boil_duration": {
+        "PASS": 1
+      },
+      "case_equivalence": {
+        "PASS": 1
+      },
+      "clock_equivalence": {
+        "PASS": 2
+      },
+      "contact_paraphrase": {
+        "PASS": 1
+      },
+      "exclusivity_loss": {
+        "BLOCK": 1
+      },
+      "identity": {
+        "PASS": 4
+      },
+      "landmark_change": {
+        "BLOCK": 1
+      },
+      "location_reversal": {
+        "BLOCK": 1
+      },
+      "prohibition_loss": {
+        "BLOCK": 1
+      },
+      "quantity_change": {
+        "BLOCK": 1
+      },
+      "sample_restriction": {
+        "PASS": 1
+      },
+      "site_identifier_change": {
+        "BLOCK": 1
+      },
+      "time_omission": {
+        "BLOCK": 1
+      },
+      "time_reversal": {
+        "BLOCK": 1
+      },
+      "time_value_change": {
+        "BLOCK": 1
+      },
+      "unauthorized_addition": {
+        "BLOCK": 1,
+        "PASS": 1
+      }
+    },
+    "profile": "freshwater-protective-communication-v1",
+    "total": 24,
+    "unsafe_block": 13,
+    "unsafe_block_rate": 0.9285714285714286,
+    "unsafe_pass": 1,
+    "unsafe_pass_rate": 0.07142857142857142,
+    "unsafe_review": 0,
+    "unsafe_total": 14
+  },
+  "qualified_against_declared_release_gates": false,
+  "semantic_fingerprint": "0020bd6825d46d678055ce2fc4d786296b591930d9a0a6708e0cd61885779b8a"
+}

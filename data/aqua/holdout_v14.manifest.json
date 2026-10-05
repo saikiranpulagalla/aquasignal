@@ -1,0 +1,42 @@
+{
+  "case_count": 111,
+  "clean_count": 43,
+  "critical_block_families": [
+    "time_reversal",
+    "location_reversal",
+    "site_identifier_change",
+    "audience_omission",
+    "action_omission",
+    "prohibition_loss",
+    "unauthorized_addition",
+    "constraint_weakening",
+    "quantity_change",
+    "exclusivity_loss",
+    "polarity_reversal",
+    "identifier_compatibility_change"
+  ],
+  "dataset_sha256": "20804ae62e1e3db084b6538027f6bb942c7c2bcecd22581764d96b0c7b13387a",
+  "evaluator_files": [
+    "aquasignal/evaluation/cases.py",
+    "aquasignal/evaluation/runner.py",
+    "aquasignal/evaluation/evidence.py"
+  ],
+  "evaluator_fingerprint": "02674763bb5505233fff7849a8f350330d69e53a0a40ce620b80ea08999d7eb3",
+  "holdout": "aqua-holdout-v14",
+  "max_clean_block_rate": 0.05,
+  "min_clean_pass_rate": 0.8,
+  "note": "Author-curated frozen V14 release holdout; not an independent external evaluation. Sealed after the fourth reliability campaign and Unicode identifier-identity repair. The dataset was not executed before sealing. Any sealed semantic/evaluator dependency or runtime-lock change invalidates this result.",
+  "python_version": "3.13.5",
+  "requirements_lock_sha256": "3ee3bc2a8ebc76d265bcdf4d9997b0f60630d0e678faa5b8820d6538f1f00fc3",
+  "schema_version": 3,
+  "sealed_at_utc": "2026-10-04T07:00:24.044546+00:00",
+  "semantic_files": [
+    "aquasignal/domain/freshwater.py",
+    "aquasignal/integrity/verifier.py",
+    "signallock/contracts/schema.py",
+    "signallock/contracts/normalization.py",
+    "signallock/verification/engine.py"
+  ],
+  "semantic_fingerprint": "2fe1714dfecde391cf7e259ad64c8c9ca9025ef4f2ed5de17226b88c21057ff6",
+  "unsafe_count": 68
+}

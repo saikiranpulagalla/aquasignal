@@ -1,0 +1,24 @@
+{"case_id":"HU01","family":"time_reversal","source":"Visitors must avoid contact with River C after 07:00.","candidate":"Visitors must avoid contact with River C before 07:00.","safe_equivalent":false}
+{"case_id":"HU02","family":"time_omission","source":"Visitors must avoid contact with Stream C until 20:00.","candidate":"Visitors must avoid contact with Stream C.","safe_equivalent":false}
+{"case_id":"HU03","family":"site_identifier_change","source":"Avoid direct contact with Stream C until 20:00.","candidate":"Avoid direct contact with Stream D until 20:00.","safe_equivalent":false}
+{"case_id":"HU04","family":"landmark_change","source":"Avoid direct contact downstream of Bridge C until 20:00.","candidate":"Avoid direct contact downstream of Bridge D until 20:00.","safe_equivalent":false}
+{"case_id":"HU05","family":"location_reversal","source":"Avoid direct contact downstream of Bridge C until 20:00.","candidate":"Avoid direct contact upstream of Bridge C until 20:00.","safe_equivalent":false}
+{"case_id":"HU06","family":"audience_omission","source":"Keep children and pets away from Site C until 20:00.","candidate":"Keep children away from Site C until 20:00.","safe_equivalent":false}
+{"case_id":"HU07","family":"action_omission","source":"Do not swim or fish in River C until 20:00.","candidate":"Do not swim in River C until 20:00.","safe_equivalent":false}
+{"case_id":"HU08","family":"unauthorized_addition","source":"Avoid direct contact with Stream C until 20:00.","candidate":"Avoid direct contact with Stream C until 20:00. Boil the water for at least 1 minute before drinking.","safe_equivalent":false}
+{"case_id":"HU09","family":"quantity_change","source":"Boil the water for at least 1 minute before drinking.","candidate":"Boil the water for at least 2 minutes before drinking.","safe_equivalent":false}
+{"case_id":"HU10","family":"exclusivity_loss","source":"Only trained personnel may collect samples from Site C.","candidate":"Trained personnel may collect samples from Site C.","safe_equivalent":false}
+{"case_id":"HU11","family":"time_value_change","source":"Avoid direct contact with Stream C until 18:00.","candidate":"Avoid direct contact with Stream C until 19:00.","safe_equivalent":false}
+{"case_id":"HU12","family":"prohibition_loss","source":"Do not wade in Stream C until 20:00.","candidate":"Wade in Stream C until 20:00.","safe_equivalent":false}
+{"case_id":"HU13","family":"audience_omission","source":"Keep pet owners and pets away from Stream C until 20:00.","candidate":"Keep pets away from Stream C until 20:00.","safe_equivalent":false}
+{"case_id":"HU14","family":"unauthorized_addition","source":"Do not fish in River C until 20:00.","candidate":"Do not fish or swim in River C until 20:00.","safe_equivalent":false}
+{"case_id":"HC01","family":"clock_equivalence","source":"Visitors must avoid contact with Stream C until 8 PM.","candidate":"Visitors must avoid contact with Stream C until 20:00.","safe_equivalent":true}
+{"case_id":"HC02","family":"contact_paraphrase","source":"Avoid direct contact with Stream C until 20:00.","candidate":"Do not touch water in Stream C until 20:00.","safe_equivalent":true}
+{"case_id":"HC03","family":"identity","source":"Avoid direct contact with Stream C until 20:00.","candidate":"Avoid direct contact with Stream C until 20:00.","safe_equivalent":true}
+{"case_id":"HC04","family":"identity","source":"Avoid direct contact downstream of Bridge C until 20:00.","candidate":"Avoid direct contact downstream of Bridge C until 20:00.","safe_equivalent":true}
+{"case_id":"HC05","family":"identity","source":"Keep children and pets away from Site C until 20:00.","candidate":"Keep children and pets away from Site C until 20:00.","safe_equivalent":true}
+{"case_id":"HC06","family":"identity","source":"Do not swim or fish in River C until 20:00.","candidate":"Do not swim or fish in River C until 20:00.","safe_equivalent":true}
+{"case_id":"HC07","family":"boil_duration","source":"Boil the water for at least 2 minutes before drinking.","candidate":"Boil the water for at least 2 minutes before drinking.","safe_equivalent":true}
+{"case_id":"HC08","family":"sample_restriction","source":"Only trained personnel may collect samples from Site C.","candidate":"Only trained personnel may collect samples from Site C.","safe_equivalent":true}
+{"case_id":"HC09","family":"case_equivalence","source":"Avoid direct contact with Stream C until 20:00.","candidate":"Avoid direct contact with stream c until 20:00.","safe_equivalent":true}
+{"case_id":"HC10","family":"clock_equivalence","source":"Do not drink water from River C until 8 PM.","candidate":"Do not drink water from River C until 20:00.","safe_equivalent":true}

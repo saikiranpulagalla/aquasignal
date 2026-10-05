@@ -1,0 +1,32 @@
+{"case_id":"H2U01","family":"time_reversal","source":"Visitors must avoid contact with Stream K after 05:30.","candidate":"Visitors must avoid contact with Stream K before 05:30.","safe_equivalent":false}
+{"case_id":"H2U02","family":"time_omission","source":"Avoid direct contact with River K until 17:30.","candidate":"Avoid direct contact with River K.","safe_equivalent":false}
+{"case_id":"H2U03","family":"time_value_change","source":"Avoid direct contact with Stream K until 17:30.","candidate":"Avoid direct contact with Stream K until 18:30.","safe_equivalent":false}
+{"case_id":"H2U04","family":"site_identifier_change","source":"Avoid direct contact with Stream K until 17:30.","candidate":"Avoid direct contact with Stream L until 17:30.","safe_equivalent":false}
+{"case_id":"H2U05","family":"location_reversal","source":"Avoid direct contact downstream of Bridge North until 17:30.","candidate":"Avoid direct contact upstream of Bridge North until 17:30.","safe_equivalent":false}
+{"case_id":"H2U06","family":"landmark_change","source":"Avoid direct contact downstream of Bridge North until 17:30.","candidate":"Avoid direct contact downstream of Bridge South until 17:30.","safe_equivalent":false}
+{"case_id":"H2U07","family":"location_weakening","source":"Avoid direct contact downstream of Bridge North until 17:30.","candidate":"Avoid direct contact near Bridge North until 17:30.","safe_equivalent":false}
+{"case_id":"H2U08","family":"audience_omission","source":"Keep children and pets away from Site K until 17:30.","candidate":"Keep children away from Site K until 17:30.","safe_equivalent":false}
+{"case_id":"H2U09","family":"action_omission","source":"Do not wade or fish in River K until 17:30.","candidate":"Do not wade in River K until 17:30.","safe_equivalent":false}
+{"case_id":"H2U10","family":"unauthorized_addition","source":"Do not drink in Stream K until 17:30.","candidate":"Do not drink or swim in Stream K until 17:30.","safe_equivalent":false}
+{"case_id":"H2U11","family":"constraint_weakening","source":"Visitors must avoid contact with Stream K until 17:30.","candidate":"Visitors should avoid contact with Stream K until 17:30.","safe_equivalent":false}
+{"case_id":"H2U12","family":"constraint_weakening","source":"Do not swim in Stream K until 17:30.","candidate":"Should not swim in Stream K until 17:30.","safe_equivalent":false}
+{"case_id":"H2U13","family":"exclusivity_loss","source":"Only trained personnel may collect samples from Site K.","candidate":"Trained personnel may collect samples from Site K.","safe_equivalent":false}
+{"case_id":"H2U14","family":"quantity_change","source":"Boil the water for at least 3 minutes before drinking.","candidate":"Boil the water for at least 1 minute before drinking.","safe_equivalent":false}
+{"case_id":"H2U15","family":"unauthorized_addition","source":"Avoid direct contact with River K until 17:30.","candidate":"Avoid direct contact with River K until 17:30. Boil the water for at least 2 minutes before drinking.","safe_equivalent":false}
+{"case_id":"H2U16","family":"prohibition_loss","source":"Do not enter Stream K until 17:30.","candidate":"Enter Stream K until 17:30.","safe_equivalent":false}
+{"case_id":"H2U17","family":"relative_time","source":"Avoid direct contact with Stream K until 17:30.","candidate":"Avoid direct contact with Stream K tonight.","safe_equivalent":false}
+{"case_id":"H2U18","family":"negative_boolean_ambiguity","source":"Do not fish or swim in River K until 17:30.","candidate":"Do not fish and swim in River K until 17:30.","safe_equivalent":false}
+{"case_id":"H2C01","family":"clock_equivalence","source":"Visitors must avoid contact with Stream K until 5:30 PM.","candidate":"Visitors must avoid contact with Stream K until 17:30.","safe_equivalent":true}
+{"case_id":"H2C02","family":"contact_paraphrase","source":"Avoid direct contact with River K until 17:30.","candidate":"Do not touch water in River K until 17:30.","safe_equivalent":true}
+{"case_id":"H2C03","family":"identity","source":"Keep children and pets away from Site K until 17:30.","candidate":"Keep children and pets away from Site K until 17:30.","safe_equivalent":true}
+{"case_id":"H2C04","family":"or_order_equivalence","source":"Do not fish or swim in River K until 17:30.","candidate":"Do not swim or fish in River K until 17:30.","safe_equivalent":true}
+{"case_id":"H2C05","family":"strong_prohibition_equivalence","source":"Visitors must not swim in Stream K until 17:30.","candidate":"Visitors do not swim in Stream K until 17:30.","safe_equivalent":true}
+{"case_id":"H2C06","family":"strong_prohibition_equivalence","source":"Do not wade in Stream K until 17:30.","candidate":"Must not wade in Stream K until 17:30.","safe_equivalent":true}
+{"case_id":"H2C07","family":"advisory_prohibition_identity","source":"Should not fish in River K until 17:30.","candidate":"Should not fish in River K until 17:30.","safe_equivalent":true}
+{"case_id":"H2C08","family":"advisory_avoidance_identity","source":"Visitors should avoid contact with Stream K until 17:30.","candidate":"Visitors should avoid contact with Stream K until 17:30.","safe_equivalent":true}
+{"case_id":"H2C09","family":"boil_duration","source":"Boil the water for at least 3 minutes before drinking.","candidate":"Boil the water for at least 3 minutes before drinking.","safe_equivalent":true}
+{"case_id":"H2C10","family":"sample_restriction","source":"Only trained personnel may collect samples from Site K.","candidate":"Only trained personnel may collect samples from Site K.","safe_equivalent":true}
+{"case_id":"H2C11","family":"relative_location_identity","source":"Avoid direct contact downstream of Bridge North until 17:30.","candidate":"Avoid direct contact downstream of Bridge North until 17:30.","safe_equivalent":true}
+{"case_id":"H2C12","family":"case_equivalence","source":"Avoid direct contact with Stream K until 17:30.","candidate":"Avoid direct contact with stream k until 17:30.","safe_equivalent":true}
+{"case_id":"H2C13","family":"identity_no_time","source":"Do not fish in River K.","candidate":"Do not fish in River K.","safe_equivalent":true}
+{"case_id":"H2C14","family":"audience_identity","source":"Keep children away from Site K until 17:30.","candidate":"Keep children away from Site K until 17:30.","safe_equivalent":true}

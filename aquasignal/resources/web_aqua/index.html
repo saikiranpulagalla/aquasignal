@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AquaSignal verifies that AI-assisted freshwater risk messages preserve protective meaning before human approval.">
+  <title>AquaSignal · Verified Freshwater Risk Communication</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<a class="skip-link" href="#workspace">Skip to verification workspace</a>
+<header class="topbar">
+  <div class="brand"><span class="mark" aria-hidden="true">≈</span><span>AquaSignal</span></div>
+  <div class="track">Track 6 · Resilience Informatics</div>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="eyebrow">VERIFIED FRESHWATER RISK COMMUNICATION</div>
+    <h1 id="hero-title">AI may rewrite the warning.<br><span>It may not rewrite the protective action.</span></h1>
+    <p class="lede">AquaSignal binds environmental context to an expert-authored freshwater advisory, then independently checks whether an AI-assisted citizen rewrite preserved <strong>action, place, time, audience, and constraint</strong>.</p>
+    <div class="principles" aria-label="Core trust boundaries">
+      <span>Environmental systems determine risk</span>
+      <span>Humans author the authority</span>
+      <span>AI may propose wording</span>
+      <span>Deterministic checks verify V1</span>
+    </div>
+  </section>
+
+  <section class="context-panel" aria-labelledby="context-title">
+    <div class="section-heading">
+      <div>
+        <div class="step">01 · CONTEXT</div>
+        <h2 id="context-title">Bind OneAquaHealth environmental context</h2>
+        <p>AquaSignal uses context as provenance. It does <strong>not</strong> infer that water is safe or unsafe from indicator values.</p>
+      </div>
+      <button class="button secondary" id="demoContextBtn" type="button">Reload synthetic OAH-style context</button>
+    </div>
+
+    <div class="context-grid">
+      <div class="context-card" id="contextCard" aria-live="polite">
+        <div class="context-empty">No environmental context loaded.</div>
+      </div>
+      <div class="import-card">
+        <label for="csvFile">Resilience Map CSV export</label>
+        <input id="csvFile" type="file" accept=".csv,text/csv">
+        <button class="button ghost" id="csvImportBtn" type="button">Import selected CSV</button>
+        <details>
+          <summary>Advanced: OAH-FHIR JSON context</summary>
+          <label for="fhirInput">Environmental Observation or Location JSON</label>
+          <textarea id="fhirInput" rows="5" spellcheck="false" placeholder='{"resourceType":"Observation", ...}'></textarea>
+          <button class="button ghost" id="fhirImportBtn" type="button">Import FHIR context</button>
+          <p class="micro">Prototype compatibility only; AquaSignal does not claim FHIR certification.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="workspace" class="workspace" aria-labelledby="workspace-title">
+    <div class="section-heading compact">
+      <div>
+        <div class="step">02 · VERIFY</div>
+        <h2 id="workspace-title">Compare authority with citizen-facing wording</h2>
+      </div>
+      <div class="demo-buttons" aria-label="Demo scenarios">
+        <button class="chip" data-demo="time" type="button">Time reversal</button>
+        <button class="chip" data-demo="audience" type="button">Audience loss</button>
+        <button class="chip" data-demo="place" type="button">Place reversal</button>
+        <button class="chip" data-demo="clean" type="button">Safe equivalence</button>
+        <button class="chip" data-demo="addition" type="button">Added advice</button>
+      </div>
+    </div>
+
+    <div class="editor-grid">
+      <article class="editor source-editor">
+        <div class="editor-kicker">AUTHORITATIVE ADVISORY</div>
+        <label for="sourceText">Expert-authored source</label>
+        <textarea id="sourceText" rows="8">Visitors must avoid contact with Stream A after 18:00.</textarea>
+        <div class="source-state" id="sourceState" aria-live="polite">Source has not been frozen yet.</div>
+      </article>
+
+      <article class="editor candidate-editor">
+        <div class="editor-kicker">CITIZEN-FACING REWRITE</div>
+        <label for="candidateText">AI-assisted or manually adapted wording</label>
+        <textarea id="candidateText" rows="8">Visitors must avoid contact with Stream A before 18:00.</textarea>
+        <div class="candidate-tools">
+          <span class="micro">AI can propose wording; it cannot certify itself.</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="verify-row">
+      <button class="button primary" id="verifyBtn" type="button">Verify protective meaning</button>
+      <div id="similarity" class="similarity" aria-label="Naive text similarity">Text similarity: —</div>
+    </div>
+
+    <section id="result" class="result neutral" aria-live="polite" aria-atomic="true">
+      <div class="result-header">
+        <div>
+          <div class="result-label">VERDICT</div>
+          <h3 id="decision">NOT EVALUATED</h3>
+          <p id="summary">Load context and verify the message to compare deterministic protective-action contracts.</p>
+        </div>
+        <div id="methodBadge" class="method-badge">Deterministic V1</div>
+      </div>
+      <div id="diffs" class="diff-grid"></div>
+      <details id="technicalDetails" class="technical">
+        <summary>Technical evidence</summary>
+        <div id="technicalBody"></div>
+      </details>
+      <div class="receipt-row">
+        <button class="button secondary" id="receiptBtn" type="button" disabled>Download integrity receipt</button>
+      </div>
+    </section>
+  </section>
+
+  <section class="why" aria-labelledby="why-title">
+    <div class="step">03 · WHY IT EXISTS</div>
+    <h2 id="why-title">Fluent is not the same as faithful.</h2>
+    <div class="why-grid">
+      <article><strong>ACTION</strong><p>What people are instructed or prohibited from doing.</p></article>
+      <article><strong>PLACE</strong><p>Which stream, site, or upstream/downstream scope applies.</p></article>
+      <article><strong>TIME</strong><p>Before, after, until, or at what time the action applies.</p></article>
+      <article><strong>AUDIENCE</strong><p>Humans or animals who must remain in scope.</p></article>
+      <article><strong>CONSTRAINT</strong><p>Must, must not, only, and other force-changing terms.</p></article>
+    </div>
+  </section>
+
+  <section class="evidence" aria-labelledby="evidence-title">
+    <div class="section-heading">
+      <div>
+        <div class="step">04 · DEVELOPMENT EVIDENCE</div>
+        <h2 id="evidence-title">Aqua DEV benchmark</h2>
+        <p>Developer-visible regression corpus. This is <strong>not</strong> presented as an independent final holdout.</p>
+      </div>
+      <button class="button secondary" id="benchmarkBtn" type="button">Run Aqua DEV benchmark</button>
+    </div>
+    <div class="metrics" id="metrics">
+      <div><strong>—</strong><span>Unsafe PASS</span></div>
+      <div><strong>—</strong><span>Unsafe BLOCK</span></div>
+      <div><strong>—</strong><span>Clean PASS</span></div>
+      <div><strong>—</strong><span>DEV cases</span></div>
+    </div>
+    <div class="release-evidence" aria-labelledby="holdout-title">
+      <div>
+        <div class="step">FROZEN RELEASE EVIDENCE</div>
+        <h3 id="holdout-title">Frozen release holdout</h3>
+        <p class="micro">Author-curated frozen set, not independent external validation. Hash binding is checked against the frozen semantic files.</p>
+      </div>
+      <div class="metrics" id="holdoutMetrics" aria-live="polite">
+        <div><strong>—</strong><span>Unsafe PASS</span></div>
+        <div><strong>—</strong><span>Unsafe BLOCK</span></div>
+        <div><strong>—</strong><span>Clean PASS</span></div>
+        <div><strong>—</strong><span>Evidence status</span></div>
+      </div>
+      <p id="holdoutHash" class="micro hash"></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>AquaSignal · OneAquaHealth Track 6 prototype</span>
+  <span>Decision support only · final publication authority remains human.</span>
+</footer>
+<script src="/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "case_count": 129,
+  "clean_count": 55,
+  "critical_block_families": [
+    "time_reversal",
+    "location_reversal",
+    "site_identifier_change",
+    "audience_omission",
+    "action_omission",
+    "prohibition_loss",
+    "unauthorized_addition",
+    "constraint_weakening",
+    "quantity_change",
+    "exclusivity_loss",
+    "polarity_reversal"
+  ],
+  "dataset_sha256": "ae8f85baca51c792d9cadfd367e613f6ea7cb4958a8f540468709e9c740d7dcf",
+  "evaluator_files": [
+    "aquasignal/evaluation/cases.py",
+    "aquasignal/evaluation/runner.py",
+    "aquasignal/evaluation/evidence.py"
+  ],
+  "evaluator_fingerprint": "0f27a71cd3a95613a06b36f7c522c49143c032b816373521abc8b2a35d9a15aa",
+  "holdout": "aqua-holdout-v12",
+  "max_clean_block_rate": 0.05,
+  "min_clean_pass_rate": 0.8,
+  "note": "Author-curated frozen V12 release holdout; not an independent external evaluation. Sealed after the second adversarial hardening pass. The dataset was not executed before sealing. Any sealed semantic/evaluator dependency or runtime-lock change invalidates this result.",
+  "python_version": "3.13.5",
+  "requirements_lock_sha256": "3ee3bc2a8ebc76d265bcdf4d9997b0f60630d0e678faa5b8820d6538f1f00fc3",
+  "schema_version": 3,
+  "sealed_at_utc": "2026-10-04T05:12:06.113265+00:00",
+  "semantic_files": [
+    "aquasignal/domain/freshwater.py",
+    "aquasignal/integrity/verifier.py",
+    "signallock/contracts/schema.py",
+    "signallock/contracts/normalization.py",
+    "signallock/verification/engine.py"
+  ],
+  "semantic_fingerprint": "5e8c1439b2991fd6b75f14fc537a931599da038b7f661c185c2b0e952ccecafb",
+  "unsafe_count": 74
+}

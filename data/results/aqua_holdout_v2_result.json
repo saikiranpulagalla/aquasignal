@@ -1,0 +1,339 @@
+{
+  "dataset_sha256": "890e871128be178f9031b8158cbe58175943fc4aac512ae80d3f71e41e6813e4",
+  "disclosure": "Author-curated frozen release holdout. Not an independent external evaluation. Any semantic-code change after execution burns this result.",
+  "executed_at_utc": "2026-10-03T17:07:42.193164+00:00",
+  "holdout": "aqua-holdout-v2",
+  "metrics": {
+    "cases": [
+      {
+        "case_id": "H2U01",
+        "decision": "BLOCK",
+        "family": "time_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U02",
+        "decision": "BLOCK",
+        "family": "time_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U03",
+        "decision": "BLOCK",
+        "family": "time_value_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U04",
+        "decision": "BLOCK",
+        "family": "site_identifier_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U05",
+        "decision": "BLOCK",
+        "family": "location_reversal",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U06",
+        "decision": "BLOCK",
+        "family": "landmark_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U07",
+        "decision": "BLOCK",
+        "family": "location_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U08",
+        "decision": "BLOCK",
+        "family": "audience_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U09",
+        "decision": "BLOCK",
+        "family": "action_omission",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U10",
+        "decision": "BLOCK",
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U11",
+        "decision": "BLOCK",
+        "family": "constraint_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U12",
+        "decision": "BLOCK",
+        "family": "constraint_weakening",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U13",
+        "decision": "BLOCK",
+        "family": "exclusivity_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U14",
+        "decision": "BLOCK",
+        "family": "quantity_change",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U15",
+        "decision": "BLOCK",
+        "family": "unauthorized_addition",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U16",
+        "decision": "BLOCK",
+        "family": "prohibition_loss",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U17",
+        "decision": "BLOCK",
+        "family": "relative_time",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2U18",
+        "decision": "BLOCK",
+        "family": "negative_boolean_ambiguity",
+        "safe_equivalent": false,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C01",
+        "decision": "PASS",
+        "family": "clock_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C02",
+        "decision": "PASS",
+        "family": "contact_paraphrase",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C03",
+        "decision": "PASS",
+        "family": "identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C04",
+        "decision": "PASS",
+        "family": "or_order_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C05",
+        "decision": "PASS",
+        "family": "strong_prohibition_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C06",
+        "decision": "PASS",
+        "family": "strong_prohibition_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C07",
+        "decision": "PASS",
+        "family": "advisory_prohibition_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C08",
+        "decision": "PASS",
+        "family": "advisory_avoidance_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C09",
+        "decision": "PASS",
+        "family": "boil_duration",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C10",
+        "decision": "PASS",
+        "family": "sample_restriction",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C11",
+        "decision": "PASS",
+        "family": "relative_location_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C12",
+        "decision": "PASS",
+        "family": "case_equivalence",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C13",
+        "decision": "PASS",
+        "family": "identity_no_time",
+        "safe_equivalent": true,
+        "source_ready": true
+      },
+      {
+        "case_id": "H2C14",
+        "decision": "PASS",
+        "family": "audience_identity",
+        "safe_equivalent": true,
+        "source_ready": true
+      }
+    ],
+    "clean_block": 0,
+    "clean_block_rate": 0.0,
+    "clean_pass": 14,
+    "clean_pass_rate": 1.0,
+    "clean_review": 0,
+    "clean_total": 14,
+    "per_family": {
+      "action_omission": {
+        "BLOCK": 1
+      },
+      "advisory_avoidance_identity": {
+        "PASS": 1
+      },
+      "advisory_prohibition_identity": {
+        "PASS": 1
+      },
+      "audience_identity": {
+        "PASS": 1
+      },
+      "audience_omission": {
+        "BLOCK": 1
+      },
+      "boil_duration": {
+        "PASS": 1
+      },
+      "case_equivalence": {
+        "PASS": 1
+      },
+      "clock_equivalence": {
+        "PASS": 1
+      },
+      "constraint_weakening": {
+        "BLOCK": 2
+      },
+      "contact_paraphrase": {
+        "PASS": 1
+      },
+      "exclusivity_loss": {
+        "BLOCK": 1
+      },
+      "identity": {
+        "PASS": 1
+      },
+      "identity_no_time": {
+        "PASS": 1
+      },
+      "landmark_change": {
+        "BLOCK": 1
+      },
+      "location_reversal": {
+        "BLOCK": 1
+      },
+      "location_weakening": {
+        "BLOCK": 1
+      },
+      "negative_boolean_ambiguity": {
+        "BLOCK": 1
+      },
+      "or_order_equivalence": {
+        "PASS": 1
+      },
+      "prohibition_loss": {
+        "BLOCK": 1
+      },
+      "quantity_change": {
+        "BLOCK": 1
+      },
+      "relative_location_identity": {
+        "PASS": 1
+      },
+      "relative_time": {
+        "BLOCK": 1
+      },
+      "sample_restriction": {
+        "PASS": 1
+      },
+      "site_identifier_change": {
+        "BLOCK": 1
+      },
+      "strong_prohibition_equivalence": {
+        "PASS": 2
+      },
+      "time_omission": {
+        "BLOCK": 1
+      },
+      "time_reversal": {
+        "BLOCK": 1
+      },
+      "time_value_change": {
+        "BLOCK": 1
+      },
+      "unauthorized_addition": {
+        "BLOCK": 2
+      }
+    },
+    "profile": "freshwater-protective-communication-v1",
+    "total": 32,
+    "unsafe_block": 18,
+    "unsafe_block_rate": 1.0,
+    "unsafe_pass": 0,
+    "unsafe_pass_rate": 0.0,
+    "unsafe_review": 0,
+    "unsafe_total": 18
+  },
+  "qualified_against_declared_release_gates": true,
+  "semantic_fingerprint": "3bd80ffcd0d57340a9cc9a41d7fd8e908cf5f000443953f4ac3e533eef52255e"
+}
